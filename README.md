@@ -39,16 +39,11 @@ class PeopleClassifier(nn.Module):
         self.fc2=nn.Linear(16,8)
         self.fc3=nn.Linear(8,4)
 
-
-
-
-
     def forward(self, x):
       x=F.relu(self.fc1(x))
       x=F.relu(self.fc2(x))
       x=self.fc3(x)
       return x
-
         
 # Initialize the Model, Loss Function, and Optimizer
 model =PeopleClassifier(input_size=X_train.shape[1])
@@ -64,10 +59,6 @@ def train_model(model, train_loader, criterion, optimizer, epochs):
       loss.backward ()
       optimizer.step()
 
-
-
-
-
     if (epoch + 1) % 10 == 0:
         print(f'Epoch [{epoch+1}/{epochs}], Loss: {loss.item():.4f}')
 ```
@@ -76,24 +67,18 @@ def train_model(model, train_loader, criterion, optimizer, epochs):
 
 ## Dataset Information
 
-Include screenshot of the dataset
+<img width="990" height="586" alt="Screenshot (56)" src="https://github.com/user-attachments/assets/b2337e12-bda7-4694-b862-cd3468f08500" />
 
 ## OUTPUT
 
-
-
 ### Confusion Matrix
-
-Include confusion matrix here
+<img width="640" height="480" alt="fig1" src="https://github.com/user-attachments/assets/0f425fd3-0dab-4d5d-baf9-fdc59535f6c9" />
 
 ### Classification Report
-
-Include Classification Report here
-
+<img width="676" height="421" alt="classification" src="https://github.com/user-attachments/assets/b399e3de-3306-47e8-8e13-f7811cf2b0a6" />
 
 ### New Sample Data Prediction
-
-Include your sample input and output here
+<img width="676" height="97" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/79d8bc3e-615d-4aa7-8716-41b6c48c0320" />
 
 ## RESULT
-Include your result here
+Thus, a neural network classification model for the given dataset as been created successfully.
