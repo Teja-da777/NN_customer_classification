@@ -14,22 +14,35 @@ You are required to help the manager to predict the right group of the new custo
 
 ## Neural Network Model
 
-Include the neural network model diagram.
+<img width="869" height="713" alt="Screenshot 2026-02-06 184805" src="https://github.com/user-attachments/assets/6e808709-6ddc-4642-906f-b2f4c05dbc23" />
 
-## DESIGN STEPS
+## DESIGN STEPS:
 
 ### STEP 1:
-Write your own steps
+Understand the classification task and identify input and output variables.
 
 ### STEP 2:
-
+Gather data, clean it, handle missing values, and split it into training and test sets.
 ### STEP 3:
+Normalize/standardize features, encode categorical labels, and reshape data if needed.
+### STEP 4:
+Choose the number of layers, neurons, and activation functions for your neural network.
+
+### STEP 5:
+Select a loss function (e.g., binary cross-entropy), optimizer (e.g., Adam), and metrics (e.g., accuracy).
+
+
+### STEP 6:
+Feed training data into the model, run multiple epochs, and monitor the loss and accuracy.
+
+### STEP 7:
+Save the trained model, export it if needed, and deploy it for real-world use.
 
 
 ## PROGRAM
 
-### Name: 
-### Register Number:
+### Name: THEJESWARAN M
+### Register Number: 212223240168
 
 ```python
 class PeopleClassifier(nn.Module):
