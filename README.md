@@ -100,14 +100,14 @@ class_report = classification_report(actuals, predictions, target_names=label_en
 
 ## OUTPUT
 
-### Confusion Matrix
-<img width="640" height="480" alt="fig1" src="https://github.com/user-attachments/assets/0f425fd3-0dab-4d5d-baf9-fdc59535f6c9" />
+### Confusion Matr
+<img width="716" height="583" alt="Screenshot 2026-03-27 141222" src="https://github.com/user-attachments/assets/8700f753-1d77-4b82-bf14-763d4cf970c1" />
 
 ### Classification Report
-<img width="676" height="421" alt="classification" src="https://github.com/user-attachments/assets/b399e3de-3306-47e8-8e13-f7811cf2b0a6" />
+<img width="551" height="590" alt="image" src="https://github.com/user-attachments/assets/e81d7065-c771-4813-901f-07d3b71dc165" />
 
 ### New Sample Data Prediction
-<img width="676" height="97" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/79d8bc3e-615d-4aa7-8716-41b6c48c0320" />
+<img width="377" height="94" alt="Screenshot 2026-03-27 141256" src="https://github.com/user-attachments/assets/60cf4342-7fdd-423d-9f78-1895cfeb7d67" />
 
 ## RESULT
 Thus, a neural network classification model for the given dataset as been created successfully.
